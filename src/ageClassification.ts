@@ -18,6 +18,6 @@ export function classifyAge(age: number): string|undefined {
     } else if (age > 15 && age <= 30) {
         return 'Adult'
     } else if (age > 30 && age <= 70) {
-        return 'Senior'
+        
     }
 }
